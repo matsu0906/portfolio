@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viwport" content="width=1024">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+  <div class="wrap">
+    <header>
+      <!-- ここからハンバーガー用 -->
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+      <!-- ここまでハンバーガー用 -->
+      <div class="nav">
+        <ul>
+          <li><a href="#">
+            <span class="nomal">TOP</span>
+            <span class="hover">入口</span>
+            </a></li>
+            <li><a href="#profile">
+              <span class="nomal">Profile</span>
+              <span class="hover">自己紹介</span>
+              </a></li>
+              <li><a href="#skill-con">
+                <span class="nomal">Skill</span>
+                <span class="hover">スキル</span>
+                </a></li>
+                <li><a href="#contact">
+                  <span class="nomal">contact</span>
+                  <span class="hover">お問い合わせ</span>
+                  </a></li>
+        </ul>
+      </div>
+      </div>
+
+
+    </header>
+    <!-- メインタイトル -->
+    <div class="title">
+      <div class="title-l"></div>
+      <div class="title-r">
+        <div class="title-main">
+        <h1>Portfolio</h1>
+        <h2>Namae Myouzi</h2>
+      </div>
+      </div>
+    </div>
+    <!-- プロフィール -->
+    <div class="container">
+      <h1 class="item-title">Profile</h1> 
+    <div id="profile">
+      <div class="pro-in">
+      <div class="pro-pic">
+      <img src="img/myfphoto.jpg"
+    width="180" height="180" alt="写真"></div>
+      <div class="pro-text">
+        <h1><ruby>名字<rt>みょうじ</rt> 名前<rt>なまえ</rt></ruby></h1>
+        <p>
+          テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト<br>
+          文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章
+</div>
+</div>
+      </div>
+    </div>
+    <!-- スキル -->
+    <div id="skill-con">
+    <h1 class="item-title">Skill</h1>
+    <div id="skills">
+      <section class="skill">
+        <h1>HTML/CSS</h1>
+        <p>テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト<br>
+          文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章</p>
+      </section>
+    
+      <section class="skill">
+        <h1>PHP</h1>
+        <p>テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト<br>
+          文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章</p>
+      </section>
+    
+      <section class="skill">
+        <h1>JavaScript</h1>
+        <p>テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト<br>
+          文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章テスト文章</p>
+      </section>
+      </div>
+    </section>
+  </div>
+  </div>
+  </div>
+  <!-- コンタクト -->
+    <div class="container">
+      <h1 class="item-title">Contact</h1> 
+      <div id="contact">
+          <form  class="contactbox" action="mail.php" method="post">
+          <p>
+            <label>お名前<br>
+          <input type="text" name="name">
+        </label>
+        </p>
+        <p>
+          <label>メールアドレス<br>
+        <input type="email" name="mail">
+      </label>
+      </p>
+      <p>
+        <label>内容<br>
+      <textarea name="comment" rows="8"></textarea>
+    </label>
+    </p>
+    <p>
+      <div class="btn_wrap">
+    <input type="submit" name="送信">
+  </div>
+  </p>
+
+        </form>
+      </div>
+    <div class="contact"></div></div>
+    <footer>
+      <p>Name Firstname<br>2020</p>
+    </footer>
+  </div>
+  </body>
